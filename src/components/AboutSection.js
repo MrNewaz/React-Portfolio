@@ -1,10 +1,12 @@
+import React from "react";
 import home1 from "../img/home1.png";
+//Styled
 import styled from "styled-components";
-import { About, Hide, Description, Image } from "../styles";
+import { About, Description, Image, Hide } from "../styles";
 
 const AboutSection = () => {
   return (
-    <About className="about">
+    <About>
       <Description>
         <div className="title">
           <Hide>
@@ -21,15 +23,17 @@ const AboutSection = () => {
         </div>
         <p>
           Contact us for any photography or videography ideas that you have. We
-          have professionals with amazing skills
+          have professionals with amazing skills.
         </p>
         <button>Contact Us</button>
       </Description>
       <Image>
-        <img src={home1} alt="guy with camera" />
+        <img src={home1} alt="guy with a camera" />
       </Image>
     </About>
   );
 };
+
+//Styled Components
 
 export default AboutSection;
