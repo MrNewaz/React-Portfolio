@@ -60,6 +60,7 @@ const HeadLine = styled.div`
   padding-top: 20vh;
   position: relative;
   h2 {
+    font-weight: 300;
     position: absolute;
     top: 10%;
     left: 50%;
