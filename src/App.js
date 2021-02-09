@@ -1,3 +1,4 @@
+import React from "react";
 //Global Style
 import GlobalStyle from "./components/GlobalStyle";
 //Import Pages
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
+
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
